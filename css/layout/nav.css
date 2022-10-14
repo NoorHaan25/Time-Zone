@@ -30,13 +30,13 @@ header{
 .navbar .icons a:hover{
     color: #f00;
 }
-.dropdown-menu{
+.dropdown-nav{
     border: unset;
     border-radius: 7px;
     border-top: 3px solid #f00;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.dropdown-menu::before{
+.dropdown-nav::before{
     content: "";
     border-width: 10px;
     border-color: transparent transparent #f00 transparent;

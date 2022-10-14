@@ -20,6 +20,9 @@
     .navbar {
         display: block;
     }
+    .dropdown-nav::before{
+        opacity: 0;
+    }
     .screen-small{
         background-color: #4c4c4c;
         padding: 10px 20px;
