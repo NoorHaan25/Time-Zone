@@ -1,0 +1,69 @@
+
+/* carousel-inner */
+.carousel-item > img{
+  height: 600px;
+  object-fit: cover;
+}
+.carousel-control-prev-icon{
+  border-radius: 50%;
+  border: 1px solid #e4d3df;
+  color: #fff;
+  background-color: #e4d3df;
+}
+.card-details{
+  text-align: center;
+}
+.card-details h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.card-details p{
+  padding: 20px;
+  color: #777;
+  line-height: 1.9;
+}
+.Quantity{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Quantity span{
+  color: #777;
+  font-size: 18px;
+}
+.Quantity .counter{
+  width: 20%;
+  border: 1px solid #00000045;
+  margin: 0 30px;
+  display: flex;
+  align-items: center;
+}
+.Quantity .counter i{
+  margin: 0 16px;
+  color: #777;
+}
+.Quantity input{
+  width: 100%;
+  padding: 15px 0;
+  background-color: #828bb2;
+  color: #fff;
+  border: #828bb2;
+  outline: none;
+  text-align: center;
+  font-size: 20px;
+}
+.card-details .btn{
+  background-color: #fff;
+  border: 1px solid #007bff;
+  color: #007bff;
+  padding: 23px 0;
+  margin-top: 20px;
+  width: 25%;
+  margin-top: 40px;
+}
+.card-details .btn:hover{
+  background-color: #007bff;
+}
+.card-details .btn:hover > a{
+  color: #fff;
+}

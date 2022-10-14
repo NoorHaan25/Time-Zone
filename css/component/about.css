@@ -1,0 +1,26 @@
+.text-about{
+  padding-bottom: 40px;
+}
+.text-about h4{
+  position: relative;
+  font-weight: bold;
+  padding-left: 50px;
+  color: #000a2d;
+  font-size: 30px;
+}
+.text-about h4::before{
+  content: "";
+  position: absolute;
+  background: #eb566c;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 1px;
+}
+.text-about p{
+  color: #464d65;
+  padding-top: 10px;
+  line-height: 1.9;
+  font-size: 15px;
+}

@@ -1,0 +1,26 @@
+/*  Start Section "Features"  */
+.Features .row{
+  background-color: #ea0000;
+  padding: 35px;
+}
+.Features .card{
+  background-color: transparent;
+}
+.text-Features{
+  color: #fff;
+}
+.text-Features i{
+  font-size:40px ;
+}
+.text-Features h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.text-Features p{
+  color: #d3d1d1;
+  line-height: 1.9;
+  padding: 5px 10px 5px 0 ;
+  font-size: 16px;
+}
+/*  End Section "Features"  */

@@ -1,0 +1,174 @@
+@media screen and (max-width:1199px){
+
+}
+@media screen and (min-width:991.5px)and (max-width:1199px){
+    .Home .text h1{
+        font-size: 60px;
+    }
+    .Quantity .counter{
+        width: 25%;
+    }
+}
+@media screen and (max-width:991.5px) {
+    .navbar .icons{
+        display: none;
+    }
+    .navbar-nav {
+        background-color: #4c4c4c;
+        padding: 10px 0;
+    }
+    .navbar {
+        display: block;
+    }
+    .screen-small{
+        background-color: #4c4c4c;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: end;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff !important;
+        padding:  10px;
+        border-radius: 5px;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: #000;
+    }
+    .navbar-nav .nav-item:nth-child(2)::after{
+        opacity: 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover{
+        background-color: #ccc;
+    }
+    .navbar-toggler span ,
+    .navbar-toggler i{
+        color: #fff;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .Quantity .counter{
+        width: 35%;
+    }
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991.5px) {
+    .Home .text h1{
+        font-size: 50px;
+    }
+    .last-row{
+        padding-top: 35px;
+    }
+}
+@media screen and (max-width:767px) {
+    .Home .text h1{
+        font-size: 30px;
+    }
+    .img-Gallery {
+        margin: 15px;
+    }
+    .Home .text h1{
+        font-size: 35px;
+    }
+    .text-WatchChoice{
+        /* padding-top: 20px; */
+        text-align: center;
+    }
+    .Img-WatchChoice{
+        padding-top: 20px;
+    }
+    .counter{
+        flex-direction: column;
+    }
+    .img-Gallery-3{
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width:575.5px) {
+    .img-watch{
+        display: none;
+    }
+    .Home .text{
+        padding:40px 20px;
+    }
+    .NewArrivals h3{
+        font-size: 35px;
+    }
+    .img-video{
+        width: 60%;
+    }
+    .Quantity .counter{
+        width: 45%;
+    }
+    thead{
+        display: none;
+    }
+    tr{
+        display: block;
+    }
+    .table , tbody ,td{
+        display: block;
+        padding-top: 20px;
+    }
+    .table tr{
+        margin-bottom: 20px;
+        text-align: center;
+        border: 1px solid #828bb259;
+        border-radius: 5px;
+    }
+    .table tr td{
+        position: relative;
+        padding: 84px 0 11px 0;
+    }
+    .table tr td::before{
+        content: attr(aria-label);
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #828bb2;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .table td{
+        border-bottom: 1px solid #dee2e6;
+        border-top: none;
+    }
+    .table td:last-child{
+        border: none;
+    }
+    .row-5 td select,
+    .row-5 td input:nth-child(5){
+        width: unset;
+        }
+    .row-3 td, .row-4 td , .row-5 td, .row-6 td{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .row-5 td ul{
+        padding-right: 20px;
+    }
+    .table .row-6 td,
+    .table .row-3 td{
+        border: none;
+        padding: 0;
+    }
+    .table .row-6,
+    .table .row-3 {
+        border: none;
+    }
+    .table .row-4 td{
+        border: 0;
+        padding: 0 0 10px;
+    }
+    .table .row-5 td:first-child{
+        padding: 0;
+    }
+}
+
+
+

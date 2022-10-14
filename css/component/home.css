@@ -1,0 +1,74 @@
+/* Start section "Home" */
+.Home{
+  background-color: #ececec;
+  position: relative;
+  overflow: hidden;
+}
+.Home .text{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+.Home .text h1{
+  color: #0b1c39;
+  font-size: 85px;
+  font-weight: bold;
+}
+.Home .text p{
+  color: #000;
+  font-size: 17px;
+  padding: 15px 0;
+}
+.Home .btn-primary{
+  border-radius: unset;
+  background-color: #4c4c4c;
+  font-size: 17px;
+  padding: 13px 35px;
+  position: relative;
+  border: none;
+  z-index: 1;
+}
+.Home .btn-primary::after{
+  content:"" ;
+  position: absolute;
+  background-color: #f00;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.3s linear;
+}
+.Home .btn-primary:hover::after{
+  width: 100%;
+  animation: btn 0.5s linear ;
+}
+.Home .img-watch img{
+  transform: scale(1.1);
+  animation: watch 3s ease-in-out infinite alternate;
+  width: 300px;
+}
+@keyframes watch {
+  0%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+/* End section "Home" */
+/* other-pages */
+.Home-otherPages{
+  background-image: url(../../img/backgroundotherpages.webp);
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Home-otherPages > h1{
+  color: #0b1c39;
+  font-size: 65px;
+  font-weight: bold;
+}

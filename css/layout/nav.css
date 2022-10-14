@@ -1,0 +1,65 @@
+header{
+    padding: 30px 0;
+    width: 100%;
+    background-color: #fff;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.navbar-expand-lg {
+    justify-content: space-between;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.navbar .navbar-nav .nav-link {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #f00;
+}
+.navbar .icons  a{
+    padding: 0 15px;
+    transition: all 0.3s;
+    color: #000;
+}
+.navbar .icons a:hover{
+    color: #f00;
+}
+.dropdown-menu{
+    border: unset;
+    border-radius: 7px;
+    border-top: 3px solid #f00;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.dropdown-menu::before{
+    content: "";
+    border-width: 10px;
+    border-color: transparent transparent #f00 transparent;
+    border-style: solid;
+    position: absolute;
+    top: -21px;
+    left: 17px;
+}
+.navbar-nav .nav-item:nth-child(2){
+    position: relative;
+}
+.navbar-nav .nav-item:nth-child(2)::after{
+    content: "Hot";
+    position: absolute;
+    background-color: #f00;
+    color: white;
+    width: 39px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    top: -11px;
+    right: -16px;
+    font-size: 13px;
+}

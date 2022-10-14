@@ -1,0 +1,166 @@
+
+/* order */
+.check{
+  font-size: 14px;
+  background-color: #fbf9ff;
+  padding: 7px 25px;
+}
+.check a{
+  text-decoration: underline;
+}
+.login p{
+  color: #777;
+  padding-top: 20px;
+}
+.form-order {
+  padding-top: 50px;
+}
+.form-order .form-control{
+  border: 1px solid #77777729;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.form-order button{
+  padding: 20px 40px;
+  background-color: unset;
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+.form-check{
+  display: inline-block;
+  margin-left: 10px;
+}
+.form-check > label{
+  color: #0b1c39;
+}
+.form-group > a{
+  display: block;
+  color: #777;
+  padding-top: 20px;
+  font-size: 14px;
+}
+.coupon {
+  padding-top: 30px;
+}
+.coupon > input[type ="number"]{
+  width: 100%;
+  border: 1px solid #77777729;
+  padding: 10px;
+}
+.coupon > input[type ="submit"]{
+  font-size: 14px;
+  display: block;
+  background-color: white;
+  border-radius: 30px;
+  padding: 11px 28px;
+  border: 1px solid #77777729;
+  color: #0b1c39;
+  margin-top: 20px;
+  font-weight: 400;
+  transition: all linear 0.3s;
+}
+.coupon > input[type ="submit"]:hover{
+  background-color: #007bff;
+  color: white;
+}
+.Billing-Details{
+  padding-top: 40px;
+}
+.Billing-Details h4{
+  font-size: 18px;
+  padding: 20px 0;
+  color: #415094;
+}
+.Billing-Details textarea{
+  width: 100%;
+}
+.Billing-Details input ,
+.Billing-Details select,
+.Billing-Details textarea{
+  border: 1px solid #eee;
+  
+}
+.Billing-Details .form-control:focus,
+.Billing-Details textarea:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.Billing-Details select{
+  color: #777;
+}
+.Billing-Details .required::-webkit-input-placeholder:after{ 
+  color:red;
+  content:"*";
+  opacity: 1;
+}
+.Shipping-Details{
+  padding: 20px 10px;
+}
+.Shipping-Details h3{
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color: #415094;
+}
+.your-order{
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+.your-order > h3 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color:  #415094;
+}
+.list-group-item{
+  border: none;
+  border-bottom: 1px solid #00000020;
+  margin-top: 20px;
+  background-color: #f7f7f7;
+  padding: 10px 0;
+}
+.your-order .list-group-item a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #777;
+  font-size: 14px;
+}
+.your-order .list-group-item a .bold,
+.number-modify{
+  color:  #415094;
+  font-weight:500;
+}
+.your-order .span-modify{
+  width: 103.64px;
+}
+.your-order P{
+  background-color: white;
+  font-size: 14px;
+  line-height: 1.8;
+  padding: 10px;
+  color: #777;
+}
+.your-order .form-check{
+  padding: 20px 0;
+  font-size: 13px;
+}
+.your-order .form-check-last label{
+  color: #777;
+  font-size: 13px;
+}
+.your-order .form-check-last a{
+  font-size: 18px;
+}
+.your-order button{
+  background-color: white;
+  color: #007bff;
+  border: 1px solid #007bff;
+  padding: 25px;
+  width: 100%;
+  transition: all 0.3s linear;
+}
+.your-order button:hover{
+  color: white;
+  background-color: #007bff;
+}

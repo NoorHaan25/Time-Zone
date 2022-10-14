@@ -1,0 +1,83 @@
+/*  Start Section "Items" */
+.text-header{
+  text-align: center;
+}
+.text-header > h3{
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.text-header > p{
+  color: #bbb;
+  line-height: 1.6;
+}
+.img-Items{
+  position: relative;
+  border-bottom: 2px solid #f00;
+  overflow: hidden;
+}
+.img-Items > img{
+  width: 100%;
+}
+.img-Items > .btn{
+  position: absolute;
+  bottom: -25%;
+  left: 0;
+  background-color: #f00;
+  color: #fff;
+  width: 100%;
+  border-radius: 0;
+  padding: 15px;
+  transition: all 0.3s linear;
+}
+.card:hover .img-Items > .btn{
+  bottom: 0;
+}
+.Items .btn a{
+  color: #fff;
+}
+.text-Items{
+  text-align: center;
+  padding: 20px 10px;
+}
+.text-Items > a{
+  display: block;
+  padding-bottom: 7px;
+  color: #0b1c39;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.text-Items > span{
+  font-size: 17px;
+  font-weight: 500;
+}
+.Items .btn-primary{
+  border-radius: unset;
+  background-color: #f00;
+  font-size: 17px;
+  padding: 13px 35px;
+  position: relative;
+  border: none;
+  z-index: 1;
+  animation: BtnBackward 0.5s linear;
+}
+.Items .btn-primary::after{
+  content:"" ;
+  position: absolute;
+  background-color: #4c4c4c;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.3s linear;
+}
+.Items .btn-primary:hover::after{
+  width: 100%;
+  animation: btn 0.5s linear ;
+}
+.Items-btn{
+  padding-top: 60px;
+}
+/*  End Section "Items" */

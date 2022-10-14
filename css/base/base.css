@@ -1,0 +1,38 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+a:hover {
+    text-decoration: none;}
+img{
+    max-width: 100%;
+}
+.p-70{
+    padding: 70px 0;
+}
+.p-20{
+    padding: 20px 0;
+}
+.b-bottom{
+    border-bottom: 1px solid #828bb259;
+}
+.card{
+    border: none;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+@import"./font.css";

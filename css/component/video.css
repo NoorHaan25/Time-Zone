@@ -1,0 +1,73 @@
+/* Start Section "Video"  */
+.Video{
+  background-image: url(../../img/Video\ Background.webp);
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.Video::after{
+  content: "";
+  background-color: #00000045;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.link-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.link-video  > a{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.link-video  > a i{ 
+  font-size: 35px;
+  color: white;
+}
+.img-video{
+  background-image: url(../../img/vidoe_more.webp);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 30px;
+  width: 30%;
+  height: 22%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img-video > h3{
+  color: white;
+  font-size: 17px;
+}
+.img-video > a {
+  color: white;
+  font-size: 25px;
+}
+.Video:hover .link-video  > a{
+  width: 100px;
+  height: 100px;
+}
+.Video:hover::after{
+  opacity: 1;
+}
+.link-video:hover > a{
+  background-color: white;
+}
+.link-video:hover > a i{
+  color: #ea0000;
+}

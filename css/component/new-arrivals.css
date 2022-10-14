@@ -1,0 +1,38 @@
+/*  Start Section "NewArrivals"  */
+.NewArrivals h3{
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.NewArrivals  .card{
+  border: none;
+  padding-top: 20px;
+}
+.img-NewArrivals{
+  overflow: hidden;
+}
+.img-NewArrivals img{
+  transition: all 0.5s linear;
+  width: 100%;
+}
+.NewArrivals  .card:hover .img-NewArrivals img{
+  transform: scale(1.1);
+}
+.text-NewArrivas{
+  text-align: center;
+  padding: 20px 10px;
+}
+.text-NewArrivas > a{
+  display: block;
+  padding-bottom: 7px;
+  color: #0b1c39;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+}
+.text-NewArrivas > span{
+  color: #f00;
+  font-size: 17px;
+  font-weight: 500;
+}
+/*  End Section "NewArrivals"  */

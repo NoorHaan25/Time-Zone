@@ -1,0 +1,33 @@
+/* reponsive */
+@import"./responsive/responsive.css";
+/* base */
+@import"./base/base.css";
+@import"./base/font.css";
+/* layout-nav */
+@import"./layout/nav.css";
+/* layout-footer */
+@import"./layout/footer.css";
+/* component-sections */
+@import"./component/sections.css";
+/* component-css */
+@import"./component/animation.css";
+@import "./component/about.css";
+@import"./component/home.css";
+@import"./component/new-arrivals.css";
+@import"./component/items.css";
+@import"./component/video.css";
+@import"./component/watch-of-choice.css";
+@import"./component/features.css";
+@import"./component/login.css";
+@import"./component/shop.css";
+@import"./component/blog.css";
+@import"./component/product-details.css";
+@import"./component/checkout.css";
+@import"./component/cart.css";
+@import"./component/contact.css";
+
+
+
+
+
+

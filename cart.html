@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/responsive/responsive.css"> -->
+    <title>timezone</title>
+</head>
+<body>
+    <!-- Start Section "Header" -->
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-fixed-top ">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/logo.webp" alt="logo">
+                </a>
+                <div class="screen-small">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span>Menu</span>
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                        <a class="nav-link"  href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Latest
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Product list</a>
+                            <a class="dropdown-item" href="./productdetails.html">Product Details</a>
+                        </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./blog.html">Blog</a>
+                                <a class="dropdown-item" href="#">Blog Details</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./login.html">Login</a>
+                                <a class="dropdown-item" href="./cart.html">Cart</a>
+                                <a class="dropdown-item" href="#">Element</a>
+                                <a class="dropdown-item" href="#">Confirmation</a>
+                                <a class="dropdown-item" href="./checkout.html">Product Checkout</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="icons">
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-regular fa-user"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Section "Header" -->
+    <div class="Home-otherPages">
+        <h1>Cart List</h1>
+    </div>
+    <!-- Start Section "Product" -->
+    <section class="cart">
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Product</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="row-1">
+                        <td scope="row" aria-label="Product">
+                            <div class="product">
+                                <div class="img-cart">
+                                    <img src="./img/watch1.webp" alt="watch1">
+                                </div>
+                                <p>Minimalistic shop for multipurpose use</p>
+                            </div>
+                        </td>
+                        <td class="price" aria-label="Price">$360.00</td>
+                        <td aria-label="Quantity">
+                            <div class="counter">
+                                <input type="number" name="counter" id="counter">
+                            </div>
+                        </td>
+                        <td class="total" aria-label="Total">$720.00</td>
+                    </tr>
+                    <tr class="row-2">
+                        <td scope="row" aria-label="Product">
+                            <div class="product">
+                                <div class="img-cart">
+                                    <img src="./img/watch2.webp" alt="watch1">
+                                </div>
+                                <p>Minimalistic shop for multipurpose use</p>
+                            </div>
+                        </td>
+                        <td class="price" aria-label="Price">$360.00</td>
+                        <td aria-label="Quantity">
+                            <div class="counter">
+                                <input type="number" name="counter" id="counter">
+                            </div>
+                        </td>
+                        <td class="total" aria-label="Total">$720.00</td>
+                    </tr>
+                    <tr class="row-3">
+                        <td colspan="2" class="left">
+                            <div class="table-link">
+                                <a href="#">Update Cart</a>
+                            </div>
+                        </td>
+                        <td colspan="2" class="right">
+                            <div class="table-link">
+                                <a href="#">Update Cart</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="row-4">
+                        <td colspan="3" class="right"><span>Subtotal</span></td>
+                        <td class="right"><span>$2160.00</span></td>
+                    </tr>
+                    <tr class="row-5">
+                        <td colspan="3" class="right"><span>Shipping</span></td>
+                        <td class="right">
+                            <ul>
+                                <li>
+                                    Flat Rate: $5.00 
+                                    <input type="radio" name="" id="">
+                                </li>
+                                <li>
+                                    Free Shipping 
+                                    <input type="radio" name="" id="">
+                                </li>
+                                <li>
+                                    Flat Rate: $10.00 
+                                    <input type="radio" name="" id="">
+                                </li>
+                                <li>
+                                    Local Delivery: $2.00 
+                                    <input type="radio" name="" id="">
+                                </li>
+                            </ul>
+                            <h4>
+                                Calculate Shipping 
+                                <i class="fa-solid fa-angle-down"></i>
+                            </h4>
+                            <div class="select">
+                                <select name="country" id="country">
+                                    <option value="Bangladesh">Bangladesh</option>
+                                </select>
+                            </div>
+                            <div class="select">
+                                <select name="Select a State" id="Select a State">
+                                    <option value="Select a State">Select a State</option>
+                                </select>
+                            </div>
+                            <div class="input">
+                                <input type="number" name="PostCode" id="PostCode" placeholder="PostCode/ZipCode">
+                            </div>
+                            <div class="table-link">
+                                <a href="#">Update Cart</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="row-6">
+                        <td colspan="2" class="right">
+                            <div class="table-link">
+                                <a href="#">Continue Shopping</a>
+                            </div>
+                        </td>
+                        <td colspan="2" class="right">
+                            <div class="table-link">
+                                <a href="#">Proceed To Checkout</a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- End Section "Footer" -->
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

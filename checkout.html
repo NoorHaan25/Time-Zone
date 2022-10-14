@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive/responsive.css">
+    <title>timezone</title>
+</head>
+<body>
+    <!-- Start Section "Header" -->
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-fixed-top">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/logo.webp" alt="logo">
+                </a>
+                <div class="screen-small">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span>Menu</span>
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Latest
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Product list</a>
+                            <a class="dropdown-item" href="./productdetails.html">Product Details</a>
+                        </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./blog.html">Blog</a>
+                                <a class="dropdown-item" href="#">Blog Details</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./login.html">Login</a>
+                                <a class="dropdown-item" href="./cart.html">Cart</a>
+                                <a class="dropdown-item" href="#">Element</a>
+                                <a class="dropdown-item" href="#">Confirmation</a>
+                                <a class="dropdown-item" href="./checkout.html">Product Checkout</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="icons">
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-regular fa-user"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Section "Header" -->
+    <div class="Home-otherPages">
+        <h1>Checkout</h1>
+    </div>
+    <!-- start section "order" -->
+    <section class="order p-70">
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-8 col-sm-12">
+                    <div class="login">
+                        <div class="check">
+                            <span>Returning Customer?</span>
+                            <a href="#"> Click here to login</a>
+                        </div>
+                        <p>
+                            If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.
+                        </p>
+                    </div>
+                    <form class="form-order">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username or Email">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="col-lg-12 form-group">
+                                <button type="submit" class="btn btn-primary">LOG IN</button>
+                                <div class=" form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <a href="#">Lost your password?</a>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="login">
+                                    <div class="check">
+                                        <span>Have a coupon? </span>
+                                        <a href="#"> Click here to enter your code</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 coupon">
+                                <input type="number" name="code" id="code" placeholder="Enter Coupon Code">
+                                <input type="submit" value="Apply Coupon">
+                            </div>
+                        </div>    
+                    </form>
+                </div>
+                <div class="Billing-Details col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-8 col-sm-12">
+                            <h4>Billing Details</h4>
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6 ">
+                                        <input type="text" class="form-control required" id="inputEmail4" placeholder="First Name *">
+                                    </div>
+                                    <div class="form-group col-sm-6 ">
+                                        <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name">
+                                    </div>
+                                    <div class="form-group col-sm-12">
+                                        <input type="text" class="form-control" id="inputAddress" placeholder="Company Name">
+                                    </div>
+                                    <div class="form-group col-sm-6 ">
+                                        <input type="number" class="form-control" id="inputAddress2" placeholder="Phone Number">
+                                    </div>
+                                    <div class="form-group col-sm-6 ">
+                                        <input type="email" class="form-control" id="inputAddress2" placeholder="Email Address">
+                                    </div>
+                                    <div class="form-group col-sm-12">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>County</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-sm-12">
+                                        <input type="text" class="form-control" id="inputAddress2" placeholder=" Address Line 01">
+                                    </div>
+                                    <div class="form-group col-sm-12">
+                                        <input type="text" class="form-control" id="inputAddress2" placeholder="Address Line 02">
+                                    </div>
+                                    <div class="form-group col-sm-12">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Distric</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-sm-12">
+                                        <input type="text" class="form-control" id="inputZip" placeholder="PostCode/Zip">
+                                    </div>
+                                    <div class="form-group col-sm-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                            Create an account
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="Shipping-Details col-sm-12">
+                                        <h3>Shipping Details</h3>
+                                    </div>
+                                    <div class="form-group col-sm-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                                Ship to a different address?
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="from-group col-sm-12">
+                                        <textarea name="order notes" id="order notes" cols="30" rows="10" placeholder="Order Notes"></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="card your-order">
+                                <h3>Your Order</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <span>Product</span>
+                                            <span>Total</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <span>Fresh Blackberry</span>
+                                            <span class="number-modify"> x 02</span>
+                                            <span>$720.00</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <span class="span-modify">Fresh Tomatoes</span>
+                                            <span class="number-modify"> x 02</span>
+                                            <span>$720.00</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <span class="span-modify">Fresh Brocoli</span>
+                                            <span class="number-modify"> x 02</span>
+                                            <span>$720.00</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <span class="bold">SUBTOTAL</span>
+                                            <span>$2160.00</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <span class="bold"> SHIPPING</span>
+                                            <span>Flat Rate: $50.00</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <span class="bold">TOTAL</span>
+                                            <span class="bold">$2210.00</span>
+                                        </a>
+                                        
+                                    </li>
+                                </ul>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        CHECK PAYMENTS
+                                    </label>
+                                </div>
+                                <p>
+                                    Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.
+                                </p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        PAYPAL
+                                    </label>
+                                </div>
+                                <p>
+                                    Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.
+                                </p>
+                                <div class="form-check form-check-last">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Default checkbox
+                                    </label>
+                                    <a href="#">terms & conditions*</a>
+                                </div>
+                                <button class="btn">PROCEED TO PAYPAL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section "order" -->
+    <!-- Start Section "Footer" -->
+    <footer class="p-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card card-logo">
+                        <div class="img-logo">
+                            <img src="./img/logo.webp" alt="logo">
+                        </div>
+                        <p>
+                            Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do eiusmod tem.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Offers & Discounts</a></li>
+                        <li><a href="#">Get Coupon</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <h5>New Products</h5>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Offers & Discounts</a></li>
+                            <li><a href="#">Get Coupon</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <h5>Support</h5>
+                        <ul>
+                            <li><a href="#">Frequently Asked Questions</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Report a Payment Issue </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Section "Footer" -->
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

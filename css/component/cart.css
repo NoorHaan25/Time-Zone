@@ -1,0 +1,100 @@
+.table{
+  width: 100%;
+}
+.table td, .table th {
+  padding: 30px 12px;
+}
+.price,
+.total{
+  color: #415094;
+  font-size: 14px;
+}
+.product{
+  display: flex;
+}
+.img-cart{
+  width: 200px;
+}
+.product p{
+  color: #777777;
+}
+.table tr th{
+  color: #828bb2;
+  font-size: 14px;
+  font-weight: bold;
+}
+.counter > input{
+  width: 30%;
+  padding: 10px;
+  outline: none;
+  height: 100%;
+  border: none;
+  border: 2px solid #828bb259;
+}
+.fa-plus-minus{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+}
+.plus-minus > i:first-child{
+  border-bottom: 2px solid #828bb259;
+}
+.table-link{
+  margin-top: 20px;
+}
+.table-link a{
+  background-color: #2577fd;
+  border: 1px solid #2577fd;
+  padding: 17px 35px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+.table-link a:hover{
+  background-color: #fff;
+  color: #ff2020;
+}
+.row-4 td span,
+.row-5 td span{
+  color: #415094;
+  font-size: 14px;
+}
+.row-5 td ul{
+  text-align: end;
+}
+.row-5 td ul li{
+  color: #828bb2;
+  padding-bottom: 20px;
+}
+.row-5 h4{
+  font-size: 14px;
+  font-weight: normal;
+  color: #415094;
+  padding-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.row-5 td .select select,
+.row-5 td .input:nth-child(5) input{
+  display: block;
+  margin: 13px;
+  width: 95%;
+  background: #f7f7f7;
+  border-radius: 5px;
+  padding: 10px 5px;
+  border: none;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 14px;
+}
+.row-5 td .table-link a{
+  padding: 17px 60px;
+}
+.row-6 td .table-link a{
+  padding: 17px 90px;
+}

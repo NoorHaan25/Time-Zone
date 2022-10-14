@@ -1,0 +1,40 @@
+/* Start Section "Watch-of-Choice" */
+.Watch-of-Choice .card{
+  border: none;
+}
+.text-WatchChoice > h2{
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.text-WatchChoice > p{
+  color: #777;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+.Watch-of-Choice .btn-primary{
+  border-radius: unset;
+  background-color: #f00;
+  font-size: 17px;
+  padding: 13px 35px;
+  position: relative;
+  border: none;
+  z-index: 1;
+  animation: BtnBackward 0.5s linear;
+}
+.Watch-of-Choice .btn-primary::after{
+  content:"" ;
+  position: absolute;
+  background-color: #4c4c4c;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.3s linear;
+}
+.Watch-of-Choice .btn-primary:hover::after{
+  width: 100%;
+  animation: btn 0.5s linear ;
+}
+/* End Section "Watch-of-Choice" */

@@ -1,0 +1,19 @@
+.img-Gallery img{
+    width: 100%;
+}
+.Gallery{
+    overflow: hidden;
+}
+.img-Gallery-3{
+    padding-bottom: 35px;
+}
+.img-Gallery-1 img,
+.img-Gallery-2 img{
+    height: 535px;
+    object-fit: cover;
+}
+.img-Gallery-3 img,
+.img-Gallery-4 img{
+    height: 250px;
+    object-fit: cover;
+}
